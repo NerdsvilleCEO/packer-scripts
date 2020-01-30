@@ -10,6 +10,7 @@
     "commit": true,
     "changes": [
       "USER {{user `default_user`}}",
+      "ENV UNAME {{user `default_user`}}",
       "ENV UHOME /home/{{user `default_user`}}",
       "ENV GOROOT /usr/local/go",
       "ENV GOPATH $UHOME/workspace",

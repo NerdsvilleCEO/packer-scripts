@@ -1,0 +1,3 @@
+[submodule "drop-in"]
+	path = drop-in
+	url = git@github.com:nerdsvilleceo/drop-in.git
